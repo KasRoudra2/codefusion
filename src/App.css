@@ -1,0 +1,3 @@
+.text-bw {
+    @apply text-black dark:text-white
+}
