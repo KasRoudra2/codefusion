@@ -36,7 +36,8 @@ const Hero = () => {
 
             <NavLink
               className="bg-[#1E7E34] min-w-fit rounded-full py-1.5 px-2 flex items-center gap-[10px]"
-              to={"https://youtu.be/LuuutPKH7I0?si=AFHtGHTwFFipy-Mh"}
+              to={"https://www.youtube.com/watch?v=5HqfjQ_0IK0"}
+              target="_blank"
             >
               <FaPlay className="text-white bg-[#64BCAE] rounded-full py-2 text-[2rem]" />
               Watch Tutorial
@@ -44,7 +45,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full flex justify-center mt-5 px-5">
-          <img src={SSImg} />
+          <img className="border border-amber-950" src={SSImg} />
         </div>
       </header>
       <div className="mt-8 w-full p-8 flex justify-center flex-col">

@@ -1,6 +1,6 @@
 import { FaSun, FaMoon } from "react-icons/fa6";
 import { NavLink } from "react-router";
-import LogoImg from "../assets/logo.png";
+import LogoImg from "../assets/icon.png";
 import { useTheme } from "../hooks";
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between w-full relative boxShadow rounded-full px-[20px] py-[12px]">
       <NavLink to="/">
-        <img src={LogoImg} alt="logo" className="w-[55px] " />
+        <img src={LogoImg} alt="logo" className="w-[55px] translate-x-[-10px]" />
       </NavLink>
 
       <div className="items-center gap-[10px] flex">
